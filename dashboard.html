@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <h1>Welcome to the Dashboard!</h1>
+
+    <script>
+      // Automatically create iframe and load the desired URL
+      var win = window.open();
+      var url =
+        "https://mj89sp3sau2k7lj1eg3k40hkeppguj6j-a-sites-opensocial.googleusercontent.com/gadgets/ifr?container=enterprise&country=ALL&lang=en&libs=core&parent=https://sites.google.com/site/minecraftunblockedez/&sanitize=0&url=http://www.gstatic.com/sites-gadgets/iframe/iframe.xml&v=26e2802a3b854818&view=default#up_scroll=auto&up_iframeURL=https://www-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://sites.google.com/site/s022s4h6/minecraft-classic2.xml&st=e=AIHE3cCHccremKWj6%252F9u3pKNryGvskOeSCiodTt6UXk2xu0sn3NgsKTRRQd62N1fTQHQjxSJ0VoEHj4%252Fh81B5U1YbUwYHANyfxycGQTWGcyYbZb8iVrgb1vWx4qrVkoz74qb37NKMWs8&c=enterprise&rpctoken=-5820420941461032063";
+
+      if (url) {
+        var iframe = document.createElement("iframe");
+        iframe.style.border = "none";
+        iframe.style.width = "100%";
+        iframe.style.height = "100%";
+        iframe.style.margin = "0";
+        iframe.src = url;
+        win.document.body.appendChild(iframe);
+      }
+    </script>
+  </body>
+</html>
